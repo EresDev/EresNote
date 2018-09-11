@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
 import { PrimaryHeaderComponent } from './primary-header/primary-header.component';
 import { PrimaryFooterComponent } from './primary-footer/primary-footer.component';
 
@@ -7,6 +8,12 @@ import { PrimaryFooterComponent } from './primary-footer/primary-footer.componen
   imports: [
     CommonModule
   ],
-  declarations: [PrimaryHeaderComponent, PrimaryFooterComponent]
+  declarations: [PrimaryHeaderComponent, PrimaryFooterComponent],
+  exports: [
+    CommonModule,
+
+    PrimaryHeaderComponent,
+    PrimaryFooterComponent,
+  ]
 })
 export class SharedModule { }
