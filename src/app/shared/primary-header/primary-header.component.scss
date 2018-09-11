@@ -1,0 +1,29 @@
+@import '~src/styles/_variables';
+
+header{
+  background-color: $primary_background_color;
+  color: $primary_color;
+  height: 80px;
+  padding: $primary_padding;
+
+   .navbar-brand img{
+     width: 138px;
+     height: auto;
+   }
+  .navbar-custom{
+    background-color: $primary_background_color;
+
+    .nav-link:link, .nav-link:active, .nav-link:visited, .nav-link:hover{
+      color: $primary_color_extra;
+      text-decoration: none;
+    }
+    .nav-link.active{
+      color: $primary_color;
+    }
+    .navbar-toggler:hover, .navbar-toggler:focus{
+      outline: none;
+    }
+  }
+
+
+}
