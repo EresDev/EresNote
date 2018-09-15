@@ -1,0 +1,10 @@
+@import '~src/styles/_variables';
+
+footer, footer p, footer strong{
+  color: $primary_color_extra;
+}
+footer{
+  a{
+    color: $primary_color;
+  }
+}

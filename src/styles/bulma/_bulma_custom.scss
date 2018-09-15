@@ -10,7 +10,7 @@ $purple: #8A4D76;
 $pink: #FA7C91;
 $brown: #757763;
 $beige-light: #D0D1CD;
-$beige-lighter: #EFF0EB;
+$beige-lighter: #fff;
 
 // Update Bulma's global variables
 $family-sans-serif: $primary_font_family;
@@ -26,6 +26,8 @@ $body-background-color: $beige-lighter;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
+
+//navbar
 
 $navbar-background-color: $primary_background_color;
 $navbar-item-hover-background-color: $primary_background_color;
@@ -51,6 +53,11 @@ $button-border-color: $primary_color_extra;
 
 $button-hover-color: $primary_color_extra;
 $button-hover-border-color: $primary_color;
+
+
+//footer
+$footer-background-color: $primary_background_color;
+
 
 @import "utilities/_all";
 @import "base/_all";
