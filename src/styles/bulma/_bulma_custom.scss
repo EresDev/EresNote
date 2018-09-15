@@ -13,10 +13,10 @@ $beige-light: #D0D1CD;
 $beige-lighter: #EFF0EB;
 
 // Update Bulma's global variables
-//$family-sans-serif: "Nunito", sans-serif;
+$family-sans-serif: $primary_font_family;
 $grey-dark: $brown;
 $grey-light: $beige-light;
-$primary: $purple;
+$primary: $primary_color_extra;
 $link: $pink;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
@@ -28,6 +28,29 @@ $input-border-color: transparent;
 $input-shadow: none;
 
 $navbar-background-color: $primary_background_color;
+$navbar-item-hover-background-color: $primary_background_color;
+$navbar-item-active-background-color: $primary_background_color;
+$navbar-tab-hover-background-color: $primary_background_color;
+$navbar-dropdown-background-color: $primary_background_color;
+$navbar-height: auto;
+$navbar-item-img-max-height: auto;
+$navbar-item-color: $primary_color_extra;
+$navbar-item-hover-color: $primary_color_extra;
+$navbar-item-active-color: $primary_color_extra;
+$navbar-tab-active-color: $primary_color;
+$navbar-dropdown-arrow: $tertiary_color;
+$navbar-dropdown-item-hover-color: $primary_background_color;
+$navbar-dropdown-item-hover-background-color: $primary_color_extra;
+$navbar-dropdown-item-active-color: $primary_color;
+$navbar-divider-background-color: $tertiary_background_color;
+
+//buttons
+$button-color: $primary_color_extra;
+$button-background-color: $primary_background_color;
+$button-border-color: $primary_color_extra;
+
+$button-hover-color: $primary_color_extra;
+$button-hover-border-color: $primary_color;
 
 @import "utilities/_all";
 @import "base/_all";
