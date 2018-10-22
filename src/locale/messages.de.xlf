@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="primary_header_app_name" datatype="html">
+        <source>EresNote</source>
+        <target>EresNote</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/primary-header/primary-header.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">AppName as alternate text of logo</note>
+      </trans-unit>
+      <trans-unit id="primary_header_navbar_home" datatype="html">
+        <source>
+          Home
+        </source>
+        <target>
+          Startseite
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/primary-header/primary-header.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="primary_header_navbar_contact" datatype="html">
+        <source>
+          Contact
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/primary-header/primary-header.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="primary_header_navbar_login" datatype="html">
+        <source>Login</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/primary-header/primary-header.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="primary_header_navbar_register" datatype="html">
+        <source>Register</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/primary-header/primary-header.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="AppName" datatype="html">
+        <source>EresNote </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/primary-footer/primary-footer.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="AppName_by_AppAuthor_word_by" datatype="html">
+        <source>by </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/primary-footer/primary-footer.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">To indicate the ownership of App by Author, It is just preposition by</note>
+        <note priority="1" from="meaning">Footer Line </note>
+      </trans-unit>
+      <trans-unit id="AppAuthorName" datatype="html">
+        <source>EresDev</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/primary-footer/primary-footer.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="licenced_under_text" datatype="html">
+        <source>The source code is licensed under </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/primary-footer/primary-footer.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="MIT_name" datatype="html">
+        <source>MIT</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/primary-footer/primary-footer.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description"> The licenced under MIT</note>
+        <note priority="1" from="meaning">For footer </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

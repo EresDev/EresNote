@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrimaryHeaderComponent implements OnInit {
 
+  responsive_active: boolean = false;
   constructor() { }
 
   ngOnInit() {
