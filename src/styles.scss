@@ -2,10 +2,34 @@
 @import '~src/styles/bulma/_bulma_custom';
 
 html{
+  height: 100%;
   body{
     font-family: $primary_font_family;
     margin: 0;
     padding: 0;
+    height: 100%;
+
+    #container {
+      position: relative;
+      /* updated to support footer push */
+      min-height: 100%;
+      padding-bottom: 60px; /* must be the same as footer height */
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+
+      main{
+        margin-bottom: 168px;
+
+        a:not(.button), a:not(.button):visited, a:not(.button):active{
+          color: $tertiary_color;
+        }
+        a:not(.button):hover{
+          color: $tertiary_color;
+          text-decoration: underline;
+        }
+      }
+    }
+
   }
   h1{
     font-size: 40px;
@@ -17,4 +41,9 @@ html{
   h3{
     font-size: 20px;
   }
+  input.input{
+    border: 1px solid $secondary_color;
+  }
+
+
 }

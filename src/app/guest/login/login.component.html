@@ -1,3 +1,43 @@
-<p>
-  login works!
-</p>
+<div class="container">
+  <div class="columns is-desktop">
+    <div class="column login_form">
+      <h1>Login</h1>
+      <form>
+        <div class="field">
+          <label class="label" i18n>Email</label>
+          <div class="control has-icons-left has-icons-right">
+            <input class="input" type="email" placeholder="Your email" i18n-placeholder>
+            <span class="icon is-small is-left">
+              <i class="fa fa-user"></i>
+            </span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" i18n>Password</label>
+          <div class="control has-icons-left has-icons-right">
+            <input class="input" type="password" placeholder="Your password" i18n-placeholder>
+            <span class="icon is-small is-left">
+              <i class="fa fa-key"></i>
+            </span>
+          </div>
+        </div>
+        <div class="field  is-grouped is-grouped-right">
+          <div class="control">
+            <button class="button" i18n>Login</button>
+          </div>
+        </div>
+        <div class="field  is-grouped">
+          <a [routerLink]="['/forgot-password']" i18n>Forgot your password?</a>
+        </div>
+      </form>
+    </div>
+    <div class="column register">
+      <h1 i18n>Don't have an account?</h1>
+      <p i18n>Get your account right away and start making some notes.</p>
+      <br>
+      <p><a class="button" [routerLink]="['/register']" i18n="@@loginCreateAccountButton">Create your account!</a></p>
+    </div>
+  </div>
+
+</div>

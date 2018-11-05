@@ -7,4 +7,6 @@ footer{
   a{
     color: $primary_color;
   }
+   position: absolute; bottom: 0; width: 100%;
+  /* as it's absolute, you should give it a specific height, or let it be as wide as its content */
 }
