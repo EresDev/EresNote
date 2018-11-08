@@ -9,11 +9,13 @@ import { RegisterComponent } from './register/register.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { RecoverPasswordComponent } from './recover-password/recover-password.component';
 import { ContactComponent } from './contact/contact.component';
+import {MemberModule} from '../member/member.module';
 
 @NgModule({
   imports: [
     SharedModule,
     GuestRoutingModule,
+    MemberModule,
   ],
   declarations: [LayoutComponent, HomeComponent, LoginComponent, RegisterComponent, ForgotPasswordComponent, RecoverPasswordComponent, ContactComponent]
 })
